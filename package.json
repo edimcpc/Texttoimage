@@ -9,5 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser",
+    "axios",
+    "express"
   }
 }
