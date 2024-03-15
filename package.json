@@ -1,13 +1,14 @@
 {
-  "name": "starter-micro-api",
+  "name": "api-texttoimage",
   "version": "1.0.0",
-  "description": "Cyclic.sh micro api starter",
+  "description": "API for converting text to image",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
   }
 }
